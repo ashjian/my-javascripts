@@ -1,4 +1,5 @@
 var Hls = window.Hls
+var video = document.getElementById("video")
 // var url = 'https://cdn.jsdelivr.net/gh/ashjian/v3937/3938/playlist.m3u8'
 if (Hls.isSupported()) {
   var hls = new Hls()
