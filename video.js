@@ -22,15 +22,15 @@
     //     test();
     // }, false);
 
-    var video = document.getElementById("video")
-    console.log(video)
-    video.addEventListener("DOMContentLoaded", function() {
-        console.log(video)
-        test()
-    }, false)
-
-//     setTimeout(() => {
-//         video = document.getElementById("video")
+//     var video = document.getElementById("video")
+//     console.log(video)
+//     video.addEventListener("DOMContentLoaded", function() {
 //         console.log(video)
-//         test();
+//         test()
+//     }, false)
+
+    setTimeout(() => {
+        video = document.getElementById("video")
+        console.log(video)
+        test();
 //     }, 5000);
